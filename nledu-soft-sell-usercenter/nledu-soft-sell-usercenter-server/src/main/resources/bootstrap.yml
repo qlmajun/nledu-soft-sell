@@ -1,0 +1,24 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: user-center
+  #默认开发环境
+  profiles:
+    active: dev
+  #允许bean覆盖
+  main:
+    allow-bean-definition-overriding: true
+  #nacos(注册中心和配置中心)地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.122.128:8848
+        metadata:
+          version: xmg
+      config:
+        server-addr: 192.168.122.128:8848
+        file-extension: yml
+        prefix: ${spring.application.name}
+        shared-configs:
+          - common.yml

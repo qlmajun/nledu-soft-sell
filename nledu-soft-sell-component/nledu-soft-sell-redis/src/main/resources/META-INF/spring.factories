@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.newland.edu.ribbon.redis.RedisAutoConfigure,\
+com.newland.edu.ribbon.redis.lock.RedissonDistributedLock,\
+com.newland.edu.ribbon.redis.template.RedisRepository

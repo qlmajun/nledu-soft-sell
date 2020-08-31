@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.newland.edu.ribbon.auth2.common.config.SecurityPropertiesConfig,\
+com.newland.edu.ribbon.auth2.common.store.AuthDbTokenStore,\
+com.newland.edu.ribbon.auth2.common.store.AuthRedisTokenStore,\
+com.newland.edu.ribbon.auth2.common.store.AuthJwtTokenStore,\
+com.newland.edu.ribbon.auth2.common.store.ResJwtTokenStore

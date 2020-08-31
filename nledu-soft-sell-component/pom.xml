@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nledu-soft-sell</artifactId>
+        <groupId>com.newland.edu</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>nledu-soft-sell-component</artifactId>
+    <name>nledu-soft-sell-component</name>
+    <description>通用组件</description>
+    <modules>
+        <module>nledu-soft-sell-common</module>
+        <module>nledu-soft-sell-log</module>
+        <module>nledu-soft-sell-db</module>
+        <module>nledu-soft-sell-redis</module>
+        <module>nledu-soft-sell-auth</module>
+        <module>nledu-soft-sell-ribbon</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
+
+</project>

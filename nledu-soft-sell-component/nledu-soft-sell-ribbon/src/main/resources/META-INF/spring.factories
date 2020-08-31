@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.newland.edu.ribbon.RibbonAutoConfigure,\
+com.newland.edu.ribbon.FeignAutoConfigure,\
+com.newland.edu.ribbon.RestTemplateAutoConfigure,\
+com.newland.edu.ribbon.filter.LbIsolationFilter,\
+com.newland.edu.ribbon.LbIsolationAutoConfigure

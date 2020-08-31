@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.newland.edu.ribbon.db.config.TenantAutoConfigure,\
+com.newland.edu.ribbon.db.config.MybatisPlusAutoConfigure
